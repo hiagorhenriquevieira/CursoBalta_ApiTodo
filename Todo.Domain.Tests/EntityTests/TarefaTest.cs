@@ -11,6 +11,7 @@ namespace Todo.Domain.Tests.EntityTests
     public class TarefaTest
     {
         private readonly Tarefa _tarefa = new Tarefa("Titulo aqui","Hiagor",DateTime.Now);
+        
         [TestMethod]
         public void Dado_uma_nova_tarefa_ela_nao_pode_ser_concluida()
         {

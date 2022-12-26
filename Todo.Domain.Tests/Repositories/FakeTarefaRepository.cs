@@ -18,5 +18,10 @@ namespace Todo.Domain.Tests.Repositories
         {
 
         }
+
+        public Tarefa GetById(Guid Id, string email)
+        {
+         return new Tarefa("Titulo aqui","Hiagor", DateTime.Now);
+        }
     }
 }
